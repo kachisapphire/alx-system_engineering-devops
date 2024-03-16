@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# This script print all processes including 
-# the one without TTY
-ps -auxf | grep bash
-# shellcheck disable=SC2009

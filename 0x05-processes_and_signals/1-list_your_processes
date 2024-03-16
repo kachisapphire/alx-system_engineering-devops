@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# This script print all processes including 
-# the one without TTY
-ps -auxf
