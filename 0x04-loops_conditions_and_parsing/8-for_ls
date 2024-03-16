@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# This is a script to print filenames
-for i in *; do
-	if [[ ! "$i" == .* ]]; then
-		name_file=$(echo "$i" | cut -d'-' -f2-)
-		echo "$name_file"
-	fi
-done
