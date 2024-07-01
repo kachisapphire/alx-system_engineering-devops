@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#a script that configures ssh without a passkey
+Host *
+  PasswordAuthentication no
+  IdentityFile ~/.ssh/school
